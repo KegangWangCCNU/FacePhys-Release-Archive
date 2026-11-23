@@ -50,16 +50,8 @@ SOFTWARE.
 Additional Notices
 --------------------------------------------------------------------------------
 
-Scope. These terms cover everything in this repository, in every format: the
-source code, and the LiteRT, ONNX, and JAX/Keras weights, together with any
-TensorRT, TensorFlow, or other artifact built from them. The Privacy Protection
-Addendum applies to all of them without exception. Compiling the model for a
-server-side or cloud runtime does not remove the local-processing requirement.
-
-Relationship to open-rppg. The licensing notice in KegangWangCCNU/open-rppg
-defers the terms of pretrained models to their original authors. For the
-FacePhys model, this file is that statement of terms, and it governs the FacePhys
-weights wherever they are obtained.
+Scope. These terms apply to the source code and other materials in this
+repository. The pretrained FacePhys weights are licensed separately under weights/LICENSE.
 
 Training data. FacePhys was trained on the RLAP dataset, which is licensed
 separately under CC BY-NC-ND 4.0 and requires a signed Data Usage Agreement.

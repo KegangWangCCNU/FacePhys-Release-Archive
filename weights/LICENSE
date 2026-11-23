@@ -1,0 +1,11 @@
+FacePhys Model Weights Non-Commercial License
+
+This license applies only to the pretrained FacePhys weights in `FacePhys.weights.h5`, `model.onnx`, and `model.tflite`, including converted, quantized, compiled, and fine-tuned versions that incorporate them.
+
+You may use, copy, modify, and redistribute the weights for non-commercial purposes. Companies may evaluate them outside production. Commercial use requires a separate written license from the rights holder. Commercial inquiries: https://facephys.com.
+
+Run biometric inference and signal processing on the device that captures the video. Obtain explicit, informed consent before collecting personal or physiological data. Send derived metrics off-device only with separate, specific, revocable consent that states what is sent, where, why, and how long it is retained.
+
+When redistributing, include this license, retain existing attribution notices, and identify material changes.
+
+The weights are provided as is, without warranty.
