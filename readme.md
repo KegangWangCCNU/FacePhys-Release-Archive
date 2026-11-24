@@ -1,4 +1,6 @@
-# FacePhys Model Release 
+# FacePhys Model Release
+
+> This repository is an archive of FacePhys. For the maintained release, see [FacePhys/FacePhys-Release](https://github.com/FacePhys/FacePhys-Release). The current code, weights, and derivatives are covered by the [FacePhys Academic Community License](LICENSE), aligned with the maintained repository.
 
 FacePhys is a lightweight rPPG algorithm that uses State Space Models (SSMs) to model heart states. With a memory usage of **only 4MB**, it is ideal for on-device inference. 
 <img width="1258" height="896" alt="image" src="https://github.com/user-attachments/assets/1f1b6bc8-39f4-49a6-98be-4dd234006549" />
@@ -76,12 +78,24 @@ We utilized `LiteRT` to construct [a highly efficient rPPG demo capable of on-de
 
 ### Paper 
 
-Download [FacePhys2025.pdf](https://github.com/user-attachments/files/24302692/FacePhys2025.pdf)
+Please cite **FacePhys: State of the Heart Learning, NeurIPS 2026** when using these materials in academic work.
 
-## License 
+[Official paper page and citation information](https://neurips.cc/virtual/2026/poster/150724)
 
-- **Code:** [MIT License with Privacy Protection Addendum](LICENSE).
-- **FacePhys weights:** [FacePhys Model Weights Non-Commercial License](weights/LICENSE).
+## License
+
+Copyright (c) 2025–2026 FacePhys Team.
+
+FacePhys code, model weights, model architecture implementations, and derivatives are available under the [FacePhys Academic Community License](LICENSE).
+
+- **Academic use only:** Use and modification are permitted solely for non-commercial research related to academic papers, with citation of the FacePhys paper.
+- **Authorization for deployment:** Integrating FacePhys into applications and services through [Open-rPPG](https://github.com/KegangWangCCNU/open-rppg) framework or [FacePhys Demo](https://github.com/KegangWangCCNU/FacePhys-Demo) requires prior written authorization.
+- **Commercial licensing:** Commercial use requires a separate license. A commercial license must be required when cumulative users exceed **1,000**, or combined monthly revenue of the operating entity, its parent company, and affiliates exceeds **RMB 10,000** (approximately **USD 1,428**).
+- **Logo attribution:** Any use of the weights or their derivatives must visibly display the official FacePhys logo.
+  
+<img width="21752" height="5552" alt="image" src="https://github.com/user-attachments/assets/f5f7529c-6242-4e48-94a2-b48b2fba34f2" />  
+
+ See [LICENSE](LICENSE) for the full terms and apply at [facephys.com](https://facephys.com).
 
 FacePhys was trained on the [RLAP dataset](https://github.com/KegangWangCCNU/RLAP-dataset), which is licensed separately under CC BY-NC-ND 4.0 and requires a signed Data Usage Agreement. This license grants no rights to the dataset itself.
 

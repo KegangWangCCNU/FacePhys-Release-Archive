@@ -1,41 +1,79 @@
-The MIT License (MIT)
+FacePhys Academic Community License
+Copyright (c) 2025–2026 FacePhys Team.
 
-Copyright (c) 2025 Kegang Wang
+FacePhys Team maintains the models and model architecture implementations.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission is granted to use, copy, modify, and redistribute this
+repository's code, pretrained weights, model architecture implementations,
+model artifacts, and derivatives solely for non-commercial academic
+research related to academic papers, subject to the terms below.
+Retain this copyright notice and license in redistributions.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Scope. These terms apply to Materials released under this license,
+including source code, model weights, model architecture implementations,
+and their derivatives in any format, including LiteRT, ONNX, JAX/Keras,
+TensorRT, and TensorFlow. Modification, fine-tuning, quantization,
+conversion, or compilation does not remove these requirements.
 
-Privacy Protection Addendum
+Citation. Academic papers and other public research outputs using these
+materials must cite the final conference version of:
+FacePhys: State of the Heart Learning. NeurIPS 2026.
+https://neurips.cc/virtual/2026/poster/150724
 
-By using or distributing this software, you agree to the following additional
-terms:
+Deployment authorization. Integrating or deploying FacePhys in
+applications or services, including through the Open-rPPG framework
+or FacePhys Demo, requires prior written authorization from FacePhys Team.
+This requirement also applies to continued use of materials supplied
+under this license in already deployed applications.
 
-1. Local Processing (No Exceptions): All biometric inference and signal
-   processing must be performed exclusively on the local device. This
-   requirement is absolute and cannot be waived by consent. You must NOT
-   perform inference on, or offload raw user video feeds to, any external
-   server or cloud service.
+Open-rPPG: https://github.com/KegangWangCCNU/open-rppg
+FacePhys Demo: https://github.com/KegangWangCCNU/FacePhys-Demo
 
-2. Transmission of Results: You must NOT transmit, upload, or stream derived
-   physiological metrics to any external server or cloud service, UNLESS the
-   data subject has given explicit, informed consent that clearly describes
-   what data is collected, where it is sent, how it will be used, and how long
-   it will be retained. Such consent must be freely given, specific, and
-   revocable at any time.
+Running research scripts or controlled experiments solely for the
+academic purposes permitted above does not itself constitute
+application deployment.
 
-3. Consent Requirement: You shall not use this Software to collect information
-   or physiological data from any individual without their explicit consent.
+Commercial licensing. Commercial use requires a separate written
+commercial license. A commercial license is also required if either:
 
-4. No Backdoors in Distribution: If you redistribute or modify this code, you
-   must maintain these strict local-processing guarantees. You are prohibited
-   from modifying the software to surreptitiously collect or transmit user data.
+1. The application or service has more than 1,000 cumulative users; or
+2. The combined gross revenue of the operating entity, its parent
+   company, and affiliated entities exceeds RMB 10,000 (~USD 1,428) in any
+   calendar month.
+
+Cumulative users include all distinct historical users, whether free
+or paid, including users acquired before FacePhys integration.
+Inactive users and deleted accounts do not reset the count.
+
+Affiliated entities are entities controlling, controlled by, or under
+common control with the operating entity or its parent company.
+Revenue includes all business activities, not only FacePhys-related
+revenue; intragroup transactions must not be counted twice.
+
+
+Being below these thresholds does not authorize commercial use or
+waive the deployment authorization requirement. Obtain the applicable
+written license before commencing or continuing use that requires it.
+Submitting an application does not itself grant authorization.
+
+For deployment authorization or commercial licensing, apply at:
+https://facephys.com
+
+Logo attribution. Any use of the FacePhys weights or their derivatives
+must visibly display the official FacePhys logo provided in the
+repository README. Applications must display it clearly in the interface
+presenting FacePhys functionality or results. Research or headless use
+must display it in accompanying human-readable outputs or documentation.
+Redistributed weights must include the logo in their documentation.
+
+The logo may be reproduced for this attribution purpose only.
+Do not distort it or imply endorsement by FacePhys Team.
+
+Third-party materials. Third-party components and datasets remain
+subject to their own licenses. 
+
+A separate written agreement from FacePhys Team may expressly modify
+these terms for the uses and materials covered by that agreement.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
@@ -44,26 +82,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
---------------------------------------------------------------------------------
-Additional Notices
---------------------------------------------------------------------------------
-
-Scope. These terms apply to the source code and other materials in this
-repository. The pretrained FacePhys weights are licensed separately under weights/LICENSE.
-
-Training data. FacePhys was trained on the RLAP dataset, which is licensed
-separately under CC BY-NC-ND 4.0 and requires a signed Data Usage Agreement.
-Nothing in this license grants any right to the RLAP dataset itself.
-See https://github.com/KegangWangCCNU/RLAP-dataset
-
-Not a medical device. FacePhys is a research model. It is not a medical device
-and is not intended for the diagnosis, cure, mitigation, treatment, or
-prevention of any disease or condition. If you deploy it in a product that makes
-health or medical claims, you are solely responsible for your own regulatory
-compliance (for example FDA, CE/MDR, or NMPA). The Software is provided without
-warranty of any kind.
-
-Citation. If you use FacePhys in academic work, please cite the FacePhys paper
-linked in the README.
